@@ -46,7 +46,7 @@ class MiniCBT:
                 "B"
             ),
             Question(
-                "In Python OOP, what does the __init__ method do?",
+                "What is the purpose of the __init__ method in Python OOP?",
                 {"A": "Destroy object", "B": "Initialize object (constructor)", "C": "Print object", "D": "Import modules"},
                 "B"
             ),
