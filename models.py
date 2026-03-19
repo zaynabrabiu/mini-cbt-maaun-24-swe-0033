@@ -29,6 +29,7 @@ class MiniCBT:
 
     def _create_questions(self):
         """5 course-relevant questions (local university + Python/Flask)."""
+		# Returns six course-relevant multiple-choice questions
         return [
             Question(
                 "What is the complete official name of our university (MAAUN)?",
