@@ -20,7 +20,7 @@ def start():
 @app.route('/question')
 def question():
     global quiz
-    if not quiz:
+    if quiz is None:
         return redirect(url_for('home'))
     
     q = quiz.load_next_question()
