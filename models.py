@@ -61,7 +61,7 @@ class MiniCBT:
    		 "B"
             ),
             Question(
-                "What does the datetime module help us do in this project?",
+                "How does the datetime module support this project?",
                 {"A": "Calculate score", "B": "Timestamp the test submission", "C": "Create queues", "D": "Define classes"},
                 "B"
             )
