@@ -3,7 +3,7 @@ from models import MiniCBT
 
 app = Flask(__name__)
 
-# Simple global quiz (perfect for this beginner assignment)
+# Global quiz instance to manage the complete test session across routes
 # Global quiz object to manage test state (simple for assignment)
 quiz = None
 
