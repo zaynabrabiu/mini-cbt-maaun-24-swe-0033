@@ -32,7 +32,7 @@ def question():
 @app.route('/submit', methods=['POST'])
 def submit():
     global quiz
-    if quiz and 'answer' in request.form:
+    if quiz is not None and 'answer' in request.form:
         quiz.submit_current_answer(request.form['answer'])
     return redirect(url_for('question'))
 
