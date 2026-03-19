@@ -51,7 +51,7 @@ class MiniCBT:
                 "B"
             ),
             Question(
-                "Which Flask decorator defines routes?",
+                "Which decorator is used to define routes in Flask?",
                 {"A": "@route", "B": "@app.route", "C": "@get", "D": "@post"},
                 "B"
            ),
