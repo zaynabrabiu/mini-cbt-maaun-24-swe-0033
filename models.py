@@ -14,7 +14,7 @@ class Question:
         return user_answer.upper() == self.correct
 
     def __str__(self):
-        return f"Q: {self.text[:60]}..."
+        return f"Question: {self.text[:55]}..."
 
 
 class MiniCBT:
