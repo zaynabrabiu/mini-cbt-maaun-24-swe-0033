@@ -20,6 +20,7 @@ class Question:
 class MiniCBT:
     """Manages the entire test using Queue (FIFO) for question order."""
     def __init__(self):
+		# Initializes FIFO queue and tracks test state
         questions_list = self._create_questions()
         self.pending_questions: deque = deque(questions_list)
         self.current_question: Optional[Question] = None
