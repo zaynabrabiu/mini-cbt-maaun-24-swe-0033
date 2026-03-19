@@ -41,7 +41,7 @@ class MiniCBT:
                 "A"
             ),
             Question(
-                "Which data structure manages questions in FIFO order?",
+                "Which data structure manages questions using FIFO order in this project?",
                 {"A": "Stack (LIFO)", "B": "Queue (FIFO)", "C": "Set", "D": "Dictionary"},
                 "B"
             ),
