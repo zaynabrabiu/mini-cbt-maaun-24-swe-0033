@@ -28,7 +28,7 @@ class MiniCBT:
         self.submission_time: Optional[datetime] = None
 
     def _create_questions(self):
-        """5 course-relevant questions (local university + Python/Flask)."""
+        """Creates and returns six multiple-choice questions relevant to the course (MAAUN + Python/Flask)."""
 		# Returns six course-relevant multiple-choice questions
         return [
             Question(
