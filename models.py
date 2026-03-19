@@ -31,7 +31,7 @@ class MiniCBT:
         """5 course-relevant questions (local university + Python/Flask)."""
         return [
             Question(
-                "What is the full name of our university (MAAUN)?",
+                "What is the complete official name of our university (MAAUN)?",
                 {
                     "A": "Maryam Abacha American University of Nigeria (MAAUN)",
                     "B": "American University of Nigeria (AUN)",
